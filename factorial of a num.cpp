@@ -3,13 +3,13 @@
 using namespace std;
 
 int main(){
-    int n , i=1 , mul=1;
+    int n , i=1 , fac=1;
     cout<<"enter the value of n"<<endl;
     cin>>n;
 
     for(int i=1; i<=n ; i++){
-        mul=(mul*i);
-        cout<<mul<<"*"<<i<<"="<<mul<<endl;
+        fac=(fac*i);
+        cout<<fac<<"*"<<i<<"="<<fac<<endl;
         }
     return 0;
 }
